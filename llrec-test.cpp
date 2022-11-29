@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
         cout << "Please provide an input file" << endl;
         return 1;
     }
-
+    //std::cout<<"1"<<std::endl;
     // -----------------------------------------------
     // Feel free to update any code below this point
     // -----------------------------------------------

@@ -1,0 +1,16 @@
+[ 60%] Built target kwsys
+[ 86%] Built target testing_utils
+[ 93%] Building CXX object heap_tests/CMakeFiles/heap_tests.dir/heap_tests.cpp.o
+In file included from /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:5:0:
+/home/codio/workspace/hw3/heap.h: In instantiation of ‘void Heap<T, PComparator>::push(const T&) [with T = int; PComparator = std::less<int>]’:
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:108:13:   required from here
+/home/codio/workspace/hw3/heap.h:139:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (size_ > heap_.size()){
+/home/codio/workspace/hw3/heap.h: In instantiation of ‘void Heap<T, PComparator>::push(const T&) [with T = int; PComparator = std::greater<int>]’:
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:258:14:   required from here
+/home/codio/workspace/hw3/heap.h:139:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/codio/workspace/hw3/heap.h: In instantiation of ‘void Heap<T, PComparator>::push(const T&) [with T = std::__cxx11::basic_string<char>; PComparator = std::less<std::__cxx11::basic_string<char> >]’:
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:273:24:   required from here
+/home/codio/workspace/hw3/heap.h:139:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+[100%] Linking CXX executable heap_tests
+[100%] Built target heap_tests
